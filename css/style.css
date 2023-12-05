@@ -215,3 +215,49 @@ width: 100%;
 .services select option {
   color: #000;
 }
+
+/* Brands Section */
+.brands {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.brands .brands-title h1 {
+  line-height: 33.8px;
+  height: 101px;
+  width: 322px;
+  margin: 7px 0 9px 0;
+  padding-right: 26px;
+}
+
+.brands .brands-logos {
+  grid-column: 2 / span 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.brands .brands-logos svg {
+  width: 150px;
+  height: 20px;
+}
+
+.brands .brands-logos svg path {
+  fill: rgba(171, 171, 171, 0.7);
+}
+
+.brands .brands-logos svg path:hover {
+  fill: #00bfa5;
+}
+
+.brands .brands-logos img {
+  width: 150px;
+  height: 28px;
+  filter: grayscale(100%);
+}
+
+.brands .brands-logos img:hover {
+  filter: grayscale(0%);
+}
